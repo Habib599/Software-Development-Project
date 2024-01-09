@@ -1,0 +1,44 @@
+.menu{
+    margin-right: 100px;
+    padding: auto;
+    color: white;
+    
+}
+.menu_bar{
+    background-color:rgb(34, 32, 123) ;
+}
+/* .navbar-toggler{
+    color: white;
+} */
+.items{
+    color: white;
+}
+
+/* Slider Section start */
+.slider
+ {
+    /* background-color: cadetblue; */
+    background: linear-gradient(to right, #FDCFFC, #8E86F6);
+    
+}
+
+.price {
+    color: #FF136F;
+}
+
+/* feature section start */
+.feature{
+    padding: 100px;
+} 
+
+
+/* card section */
+.card-img-top{
+   margin-top: 30px;
+}
+
+
+.banner{
+    padding: 130px;
+    background-color: #958ad4;
+}
