@@ -65,7 +65,7 @@ input{
     font-weight: bold;
     border: none;
     box-shadow: 4px 4px 8px gray;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 .amount{
     font-size: 40px;
