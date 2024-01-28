@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --h2: Epilogue;
+  --font-space-grotesk: "Space Grotesk";
+
+  /* font sizes */
+  --h2-size: 56px;
+  --font-size-15xl: 34px;
+  --font-size-26xl: 45px;
+  --h5-size: 16px;
+  --h4-size: 24px;
+  --font-size-lgi: 19px;
+  --font-size-sm: 14px;
+  --h3-size: 40px;
+  --font-size-13xl: 32px;
+  --font-size-mini: 15px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --text-light: #fff;
+  --text-light-accent: #ef6d58;
+  --color-midnightblue-100: #0a135f;
+  --color-midnightblue-200: #0a0d60;
+  --color-seashell: #fdf0e9;
+  --color-lavenderblush: #f0e3ec;
+  --text-dark: #391400;
+  --text-light-gray: rgba(255, 255, 255, 0.64);
+  --text-dark-gray: rgba(57, 20, 0, 0.64);
+  --color-black: #000;
+  --color-peachpuff: #f3d1bf;
+  --color-antiquewhite: #f6daca;
+  --gray-1: #333;
+  --color-gainsboro: #d9d9d9;
+  --color-silver: #bfbfbf;
+  --gray-6: #f2f2f2;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-33xl: 52px;
+  --gap-49xl: 68px;
+  --gap-mid: 17px;
+  --gap-15xl: 34px;
+  --gap-2xl: 21px;
+  --gap-base: 16px;
+  --gap-lg: 18px;
+  --gap-8xl: 27px;
+  --gap-mini: 15px;
+  --gap-3xl: 22px;
+  --gap-7xs: 6px;
+  --gap-12xl: 31px;
+  --gap-5xl: 24px;
+  --gap-10xs: 3px;
+  --gap-17xl: 36px;
+  --gap-13xl: 32px;
+  --gap-11xl: 30px;
+  --gap-5xs: 8px;
+  --gap-4xl: 23px;
+  --gap-smi: 13px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-127xl: 146px;
+  --padding-2xl: 21px;
+  --padding-9xl: 28px;
+  --padding-21xl: 40px;
+  --padding-24xl: 43px;
+  --padding-43xl: 62px;
+  --padding-25xl: 44px;
+  --padding-29xl: 48px;
+  --padding-12xl: 31px;
+  --padding-10xs: 3px;
+  --padding-lg: 18px;
+  --padding-8xl: 27px;
+  --padding-base: 16px;
+  --padding-9xs: 4px;
+  --padding-13xl: 32px;
+  --padding-5xs: 8px;
+  --padding-lgi: 19px;
+  --padding-10xl: 29px;
+  --padding-mini: 15px;
+  --padding-30xl: 49px;
+  --padding-28xl: 47px;
+  --padding-4xl: 23px;
+  --padding-254xl: 273px;
+  --padding-32xl: 51px;
+  --padding-158xl: 177px;
+  --padding-14xl: 33px;
+  --padding-4xs: 9px;
+  --padding-6xl: 25px;
+  --padding-239xl: 258px;
+  --padding-149xl: 168px;
+  --padding-34xl: 53px;
+  --padding-88xl: 107px;
+  --padding-15xl: 34px;
+  --padding-19xl: 38px;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+  --br-12xs: 1px;
+  --br-lgi: 19px;
+  --br-lg: 18px;
+}
