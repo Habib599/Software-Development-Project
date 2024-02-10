@@ -1,8 +1,11 @@
-# github user finder
+# Project url
 
-A webapp which can be used to find github users only with their username. Made for fun.
 
-**URL**: https://github-user-finder-00.web.app/
+
+**bank project**: https://habib599.github.io/Software-Development-Project/module%206/
+**youtube project**: https://habib599.github.io/Software-Development-Project/module%208%20assignment%202/
+**protfolio project**: https://habib599.github.io/Software-Development-Project/module%202.5/
+**Iphone project**: https://habib599.github.io/Software-Development-Project/assignment%201/
 
 **Technologies Used**
 - React
@@ -10,18 +13,3 @@ A webapp which can be used to find github users only with their username. Made f
 - HTML
 - Javascript
 
-
-**API**: https://api.github.com
-
-
-**Preview**:
-![alt text](https://github.com/samiunblack/github/main/preview.png)
-
-<br/>
-
-### **Clone this project**
- ```
- git clone https://github.com/samiunblack/Github-User-Finder.git
- cd Github-User-Finder
- npm start
- ```
