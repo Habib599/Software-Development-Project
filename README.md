@@ -15,7 +15,7 @@ A webapp which can be used to find github users only with their username. Made f
 
 
 **Preview**:
-![alt text](https://github.com/samiunblack/github-user-finder/blob/main/preview.png)
+![alt text](https://github.com/samiunblack/github/main/preview.png)
 
 <br/>
 
