@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+    <h1 style = 'padding-bottom:40px;'></h1>
+    <div class = 'px-3 d-flex flex-wrap justify-content-center' style = 'gap:15px; padding-bottom:5px;'>
+        {% for card in cards  %}
+        <div class="card" style="width: 250px; height: 400px">
+            <img src= {{card.strMealThumb}} class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{card.strMeal}}</h5>
+              <p class="card-text">{{card.text |truncatechars:100}}</p>
+            </div>
+          </div>
+        {% endfor %}
+    </div>
+
+
+{% endblock  %}
