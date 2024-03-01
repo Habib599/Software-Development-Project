@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <main>
+        <div>
+        
+            {% for m in messages %}
+            <div class="toast align-items-center text-white bg-primary  border-0 show" 
+                    role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="d-flex">
+                  <div class="toast-body">
+                    {{m}}
+                  </div>
+                  <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+              </div>
+              {% endfor %}
+             
+        </div>
+        <div>
+            <h1>Name: {{user}}</h1>
+            <a href="{% url 'edit_profile' %}"><button class="btn btn-success">Edit Profile</button></a>
+            <a href="{% url 'forgot_pass' %}"><button class="btn btn-primary">Forgot password</button></a> 
+            <a href="{% url 'reset_pass' %}"><button class="btn btn-danger">Reset Password</button></a>
+        </div>
+    </main>
+</div>
+{% endblock %}
